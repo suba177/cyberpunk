@@ -1,0 +1,708 @@
+/* GENERAL ====================================================== */
+
+body {
+  margin: 0;
+  color: #333;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+p {
+  margin: 0;
+  color: #fff;
+}
+
+/* INTRO ====================================================== */
+
+.container {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+
+  background-color: #fff;
+
+  overflow: hidden;
+
+  font-family: 'Russo One', sans-serif;
+}
+
+.main__page {
+  background: url(../img/hero/11.png) center no-repeat;
+  background-size: cover;
+
+  height: 1000px;
+}
+
+.intro {
+  margin: 0 320px;
+  max-width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+
+  padding-top: 20px;
+  height: 74px;
+  margin-bottom: 557px;
+  margin-right: 320px;
+  margin-left: 320px;
+}
+
+.logo {
+  background-image: url(../img/logo/Logo.png);
+  width: 296px;
+  height: 74px;
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+}
+
+.socials__icon {
+  width: 30px;
+  height: 30px;
+  text-decoration: none;
+  margin-right: 30px;
+}
+
+.socials__icon:last-child {
+  margin-right: 0;
+}
+
+.platforms {
+  background-image: url(../img/platform/59.png);
+  width: 624px;
+  height: 369px;
+
+  display: flex;
+  flex-direction: column;
+
+  padding-left: 70px;
+}
+
+.platforms__text {
+  color: black;
+
+  font-size: 52px;
+  height: 60%;
+
+  padding: 70px 70px 0 0;
+}
+
+.platforms__button {
+  color: #f8f200;
+  font-family: 'Russo One', sans-serif;
+  background-color: black;
+  font-size: 24px;
+
+  height: 78px;
+  width: 272px;
+
+  border: 0;
+
+  cursor: pointer;
+}
+
+.button__intro {
+  max-width: 100%;
+  padding: 25px;
+  text-decoration: none;
+  color: #f8f200;
+}
+
+.platforms__button:hover {
+  color: #f8f200;
+  background-color: aqua;
+}
+
+/* NIGHT CITY ================================================== */
+
+.section {
+  max-width: 1280px;
+  height: 810px;
+
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 70px;
+  margin-bottom: 70px;
+}
+
+.night__text {
+  padding-bottom: 70px;
+}
+
+.title {
+  color: black;
+  font-size: 62px;
+}
+
+.night__suptitle {
+  font-size: 18px;
+  line-height: 34px;
+  color: #777777;
+  max-width: 952px;
+}
+
+.cyber2077__text {
+  color: #52bedc;
+}
+
+.night__photo {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+}
+
+.night__left {
+  display: block;
+}
+
+.photo__city1 {
+  margin-bottom: 32px;
+}
+
+.photo__city1 {
+  background-image: url(../img/nightphoto/night1.png);
+  width: 460px;
+  height: 196px;
+}
+
+.photo__city2 {
+  background-image: url(../img/nightphoto/night2.png);
+  width: 460px;
+  height: 196px;
+}
+
+.photo__city3 {
+  background-image: url(../img/nightphoto/night3.png);
+  width: 788px;
+  height: 424px;
+}
+
+/* PLAY AND WIN =============================================== */
+
+.playandwin__content {
+  display: block;
+}
+
+.playandwin__before {
+  background-image: url(../img/playandwin/1.png);
+  width: 1920px;
+  height: 70px;
+}
+
+.playandwin {
+  background-image: url(../img/playandwin/2.png);
+  width: 1920px;
+  height: 814px;
+}
+
+.playandwin__after {
+  background-image: url(../img/playandwin/3.png);
+  width: 1920px;
+  height: 70px;
+}
+
+.playandwin__head {
+  display: flex;
+  max-width: 1280px;
+  margin: 0 auto;
+  align-items: center;
+  padding-top: 15px;
+}
+
+.vector {
+  background-image: url(../img/playandwin/Vector.png);
+  width: 132px;
+  height: 132px;
+  position: relative;
+  margin-right: 32px;
+}
+
+.stock {
+  background-image: url(../img/playandwin/stock.png);
+  width: 75px;
+  height: 65px;
+  position: absolute;
+  top: 35px;
+  left: 37px;
+}
+
+.title__play {
+  color: #fff;
+  font-size: 62px;
+}
+
+.text__play {
+  font-size: 18px;
+  color: #fff;
+  width: 952px;
+}
+
+.section--play {
+  padding-top: 15px;
+}
+
+.playandwin__items {
+  display: flex;
+  align-items: flex-end;
+  padding-top: 50px;
+}
+
+.playandwin__info {
+  display: block;
+
+  font-size: 18px;
+  color: #777777;
+
+  width: 460px;
+  height: 383px;
+}
+
+.your__name {
+  margin-bottom: 35px;
+}
+
+.name__input {
+  background-color: black;
+  border: none;
+  width: 460px;
+  color: #f8f200;
+  outline: none;
+}
+
+.your__name:after {
+  content: '';
+  display: block;
+  border-bottom: 2px solid #777777;
+  height: 2px;
+  width: 460px;
+  padding-top: 15px;
+}
+
+.mail {
+  margin-bottom: 35px;
+}
+
+.email__input {
+  background-color: black;
+  border: none;
+  width: 460px;
+  color: aqua;
+  outline: none;
+}
+
+.mail:after {
+  content: '';
+  display: block;
+  border-bottom: 2px solid #777777;
+  height: 2px;
+  width: 460px;
+  padding-top: 15px;
+}
+
+.screen {
+  text-decoration: underline;
+  cursor: pointer;
+
+  max-width: 462px;
+  width: 462px;
+  height: 100px;
+  padding-top: 19px;
+
+  border: 1px solid #777777;
+  border-style: dashed;
+
+  display: flex;
+  justify-content: center;
+}
+
+.btn__export {
+  margin-top: 35px;
+
+  font-size: 18px;
+  color: black;
+
+  cursor: pointer;
+
+  width: 192px;
+  height: 59px;
+
+  background-color: #f8f200;
+  border: none;
+  font-weight: 800;
+}
+
+.btn__export:hover {
+  background-color: aqua;
+  color: #f8f200;
+}
+
+.accept {
+  display: flex;
+  align-items: center;
+
+  margin-top: 15px;
+}
+
+.accept__img {
+  background-image: url(../img/playandwin/Check.png);
+  width: 14px;
+  height: 14px;
+  margin-right: 10px;
+}
+
+.playandwin__console {
+  background-image: url(../img/playandwin/console.png);
+  width: 788px;
+  height: 456px;
+}
+
+/* DIVING =============================================== */
+
+.diving {
+  background-image: url(../img/diving/background.png);
+  width: 1920px;
+  height: 676px;
+}
+
+.yellow__page {
+  display: flex;
+}
+
+.yellow__left {
+  display: block;
+  margin-right: 32px;
+  width: 50%;
+}
+
+.yellow__right {
+  display: flex;
+  flex-direction: column;
+}
+
+.yellow__comp {
+  background-image: url(../img/diving/comp.png);
+  width: 624px;
+  height: 430px;
+}
+
+.yellow__logos {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  margin-top: 26px;
+}
+
+.logo__hp {
+  background-image: url(../img/diving/hp.png);
+  width: 80px;
+  height: 80px;
+}
+
+.logo__hz {
+  background-image: url(../img/diving/hz.png);
+  width: 92px;
+  height: 21px;
+  margin: 0 15px;
+}
+
+.title__yellow {
+  font-size: 59px;
+}
+
+.yellow__text {
+  size: 18px;
+  color: black;
+  line-height: 34px;
+}
+
+.yellow__description {
+  display: block;
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  margin-top: 25px;
+}
+
+.description__color {
+  display: flex;
+  margin-bottom: 14px;
+}
+
+.color__img {
+  background-image: url(../img/diving/color.png);
+  width: 32px;
+  height: 32px;
+}
+
+.description__crystall {
+  display: flex;
+  margin-bottom: 14px;
+}
+
+.crystall__img {
+  background-image: url(../img/diving/crystall.png);
+  width: 32px;
+  height: 32px;
+}
+
+.description__files {
+  display: flex;
+}
+
+.files__img {
+  background-image: url(../img/diving/files.png);
+  width: 32px;
+  height: 32px;
+}
+
+.yellow__button {
+  background-color: black;
+  color: #f8f200;
+
+  border: 0;
+
+  cursor: pointer;
+
+  width: 194px;
+  height: 59px;
+
+  margin-top: 50px;
+}
+
+.yellow__button:hover {
+  background-color: aqua;
+  color: black;
+}
+
+/* DIVING =============================================== */
+
+.buygame__content {
+  display: flex;
+}
+
+.buygame__img {
+  background-image: url(../img/buygame/CD.png);
+  width: 944px;
+  height: auto;
+}
+
+.buygame__description {
+  background-color: black;
+  width: 50%;
+  height: auto;
+
+  padding: 70px 0 70px 32px;
+}
+
+.description__title {
+  color: #fff;
+  font-size: 62px;
+  margin-bottom: 25px;
+}
+
+.description__set {
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+
+.set__title {
+  color: #52bedc;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.set__text {
+  margin-bottom: 20px;
+}
+
+.set__img {
+  background-image: url(../img/buygame/Group\ 235.png);
+  width: 319px;
+  height: 134px;
+
+  margin-top: 25px;
+}
+
+/* FOOTER =============================================== */
+
+.footer {
+  display: flex;
+  height: 100px;
+}
+
+.footer__logo {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+.footer__cyber {
+  margin-right: 32px;
+}
+
+.footer__text {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.lic {
+  margin-right: 32px;
+}
+
+.section__footer {
+  height: 100px;
+  padding-top: 0;
+}
+
+.container:nth-last-child(2) {
+  height: 100px;
+}
+
+/* SITE END =============================================== */
+
+.site__end {
+  height: 40px;
+  width: 100%;
+  background-color: black;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  padding: 13px;
+}
+
+/* MEDIA =============================================== */
+
+/* MEDIA =============================================== */
+
+/* MEDIA =============================================== */
+
+@media (max-width: 1600px) {
+  .section--play {
+    margin-left: 36px;
+  }
+
+  .playandwin__head {
+    margin-left: 36px;
+  }
+
+  .playandwin__items {
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .section--diving {
+    margin: 0;
+  }
+}
+
+@media (max-width: 1300px) {
+  .header {
+    margin-left: 36px;
+    margin-right: 36px;
+  }
+
+  .section--night {
+    height: 1101px;
+    margin-bottom: 0;
+  }
+
+  .night__photo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .night__left {
+    display: flex;
+  }
+
+  .photo__city1 {
+    margin: 0 32px 32px 0;
+  }
+
+  .playandwin__console {
+    background-image: url(../img/playandwin/console.png);
+    width: 788px;
+    height: 456px;
+  }
+
+  .playandwin {
+    height: 1125px;
+  }
+
+  .playandwin__items {
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .diving {
+    height: 750px;
+  }
+
+  .yellow__comp {
+    margin-bottom: 130px;
+  }
+
+  .yellow__right {
+    width: 480px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .yellow__page {
+    flex-direction: column;
+  }
+
+  .diving {
+    height: 1350px;
+    padding-left: 250px;
+  }
+
+  .yellow__logos {
+    margin-bottom: 30px;
+  }
+
+  .yellow__comp {
+    margin-bottom: 26px;
+  }
+
+  .title__yellow {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .diving {
+    padding-left: 200px;
+  }
+}
+
+@media (max-width: 900px) {
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 600px) {
+}
+
+@media (max-width: 480px) {
+}
+
+@media (max-width: 320px) {
+}
